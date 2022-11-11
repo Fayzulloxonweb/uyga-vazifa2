@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fayzulloxon</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: 'Roboto', sans-serif;
+		}
+		body{
+			background: #4D515D;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			min-height: 100vh;
+			font-family: 'Roboto', sans-serif;
+		}
+		.container{
+			width: 940px;
+			height: 575px;
+			background: #fff;
+			border-radius: 10px;
+		}
+		.block1{
+			float: left;
+			width: 611px;
+			height: 575px;
+			background: #fff;
+			border-radius: 10px; 
+		}
+		.block2{
+			float: left;
+			width: 329px;
+			height: 575px;
+			/*border: 1px solid black;*/
+			border-top-right-radius: 10px;
+			border-bottom-right-radius: 10px;
+		}
+		.block1 .w2{
+			font-size: 2.5em;
+    		font-weight: 200;
+    		margin-top: 60px;
+    		margin-left: 50px;
+		}
+		.block1 p{
+			font-weight: 500;
+    		color: #999;
+    		margin-top: 13px;
+    		font-size: 13px;
+    		margin-left: 50px;
+		}
+		.googl{
+			width: 501px;
+			height: 52px;
+			border: 1px solid lightgray;
+			border-radius: 5px;
+    		margin-left: 50px; 
+    		margin-top: 70px;
+		}
+		.googl .erw{
+			width: 20px;
+			margin-left: 15px;
+		}
+		.erw{
+			float: left;
+			width: 50px;
+			height: 52px;
+			/*border: 1px solid black;*/
+		}
+		.t1{
+			float: left;
+			width: 450px;
+			height: 50px;
+			/*border: 1px solid black;*/
+		}
+		.googl .t1 a{
+			font-weight: 500;
+			line-height: 50px;
+			text-decoration: none;
+			color: #999;
+			text-transform: uppercase;
+			font-size: 0.75em;
+			text-align: center;
+			margin-left: 150px;
+		}
+		.erw svg{
+			margin-top: 13px;
+		}
+
+		.facbok{
+			width: 501px;
+			height: 52px;
+			border: 1px solid lightgray;
+			border-radius: 5px;
+    		margin-left: 50px; 
+    		margin-top: 25px;
+		}
+		.facbok .erw2{
+			width: 20px;
+			margin-left: 15px;
+		}
+		.erw2{
+			float: left;
+			width: 50px;
+			height: 52px;
+			/*border: 1px solid black;*/
+		}
+		.t12{
+			float: left;
+			width: 450px;
+			height: 50px;
+			/*border: 1px solid black;*/
+		}
+		.facbok .t12 a{
+			font-weight: 500;
+			line-height: 50px;
+			text-decoration: none;
+			color: #999;
+			text-transform: uppercase;
+			font-size: 0.75em;
+			text-align: center;
+			margin-left: 150px;
+		}
+		.erw2 svg{
+			margin-top: 13px;
+		}
+
+		.twitr{
+			width: 501px;
+			height: 52px;
+			border: 1px solid lightgray;
+			border-radius: 5px;
+    		margin-left: 50px; 
+    		margin-top: 25px;
+		}
+		.twitr .erw3{
+			width: 20px;
+			margin-left: 15px;
+		}
+		.erw3{
+			float: left;
+			width: 50px;
+			height: 52px;
+			/*border: 1px solid black;*/
+		}
+		.t13{
+			float: left;
+			width: 450px;
+			height: 50px;
+			/*border: 1px solid black;*/
+		}
+		.twitr .t13 a{
+			font-weight: 500;
+			line-height: 50px;
+			text-decoration: none;
+			color: #999;
+			text-transform: uppercase;
+			font-size: 0.75em;
+			text-align: center;
+			margin-left: 150px;
+		}
+		.erw3 svg{
+			margin-top: 13px;
+		}
+		.pass{
+			width: 611px;
+			height: 81px;
+			margin-top: 69px;
+    		border-top: 1px solid #ddd;
+		}
+		.hy h5{
+		    font-weight: 500;
+    		font-size: 14px;
+    		margin-top: 30px;
+    		margin-left: 55px;
+		}
+		.hy{
+			float: left;
+			width: 330px;
+			height: 81px;
+			/*border: 1px solid black;*/
+		}
+		.q9{
+			float: left;
+			width: 280px;
+			height: 81px;
+			/*border: 1px solid black;*/
+			margin-top: 25px;
+		}
+		.q9 a{
+    		color: #999;
+       		font-weight: 700;
+    		text-transform: uppercase;
+    		text-decoration: none;	
+    		font-size: 12px;
+    		margin-left: 120px;
+    		transition: .7s;
+		}
+		.q9 a:hover{
+			color: black;
+		}
+		.block2{
+			background-image: url("side.jpg");
+			background-repeat: no-repeat;
+			background-size: 329px 575px;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="container">
+		<div class="block1">
+			<h1 class="w2">Become a member</h1>
+			<p>
+				Use social networks to join us instantly.
+				<br>
+				You won't spend any time confirming those boring emails.
+			</p>
+
+			<div class="googl">
+				<div class="erw">
+					<a href="#"><svg fill="#C3523F" aria-labelledby="simpleicons-googleplus-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    			<title id="simpleicons-googleplus-icon"></title>
+    			<path d="M7.635 10.909v2.619h4.335c-.173 1.125-1.31 3.295-4.331 3.295-2.604 0-4.731-2.16-4.731-4.823 0-2.662 2.122-4.822 4.728-4.822 1.485 0 2.479.633 3.045 1.178l2.073-1.994c-1.33-1.245-3.056-1.995-5.115-1.995C3.412 4.365 0 7.785 0 12s3.414 7.635 7.635 7.635c4.41 0 7.332-3.098 7.332-7.461 0-.501-.054-.885-.12-1.265H7.635zm16.365 0h-2.183V8.726h-2.183v2.183h-2.182v2.181h2.184v2.184h2.189V13.09H24"/></svg></a>
+				</div>
+				<div class="t1"><a href="#">Sign up with google+</a></div>
+			</div>
+			<div class="facbok">
+				<div class="erw2">
+					<a href="#"><svg fill="#415993" aria-labelledby="simpleicons-facebook-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    				<title id="simpleicons-facebook-icon"></title>
+    				<path d="M22.676 0H1.324C.593 0 0 .593 0 1.324v21.352C0 23.408.593 24 1.324 24h11.494v-9.294H9.689v-3.621h3.129V8.41c0-3.099 1.894-4.785 4.659-4.785 1.325 0 2.464.097 2.796.141v3.24h-1.921c-1.5 0-1.792.721-1.792 1.771v2.311h3.584l-.465 3.63H16.56V24h6.115c.733 0 1.325-.592 1.325-1.324V1.324C24 .593 23.408 0 22.676 0"/></svg></a>
+				</div>
+				<div class="t12"><a href="#">Sign up with facebook</a></div>
+			</div>
+			<div class="twitr">
+				<div class="erw3">
+					<a href="#"><svg fill="#5899F8" aria-labelledby="simpleicons-twitter-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    				<title id="simpleicons-twitter-icon"></title>
+    				<path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"/></svg></a>
+				</div>
+				<div class="t13"><a href="#">Sign up with twitter</a></div>
+			</div>
+			<div class="pass">
+				 <div class="hy"><h5>You can still sign up with your email adress</h5></div>
+				 <div class="q9"><a href="#">Sign up with email</a></div>
+			</div>
+		</div>
+		<div class="block2"></div>
+	</div>
+
+</body>
+</html>
